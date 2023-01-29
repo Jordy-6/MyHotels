@@ -10,5 +10,7 @@ nb_employes int not null,
 nb_chambres int not null,
 nb_reservations_actuelles int not null,
 nb_clients_par_an int not null,
-id_gerant_hotel int not null
+id_gerant_hotel int not null,
+CA int not null,
+depenses_annuelles int not null
 )

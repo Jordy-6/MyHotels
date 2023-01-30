@@ -1,3 +1,2 @@
-create view myhotels.nb_employee_per_work as
-select poste ,count(id_employe) from myhotels.employes e 
-group by poste ;
+select poste ,count(id_employe) as nb_employe, avg(salaire) as salaire_moyen from myhotels.employes e 
+group by poste;
